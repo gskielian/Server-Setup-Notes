@@ -30,7 +30,7 @@ npm install -g express
 
 ### Success!
 
-![Express Setup Success](Express_Success.png)
+![Express Setup Success](Express_Success.png )
 
 ## References:
 
