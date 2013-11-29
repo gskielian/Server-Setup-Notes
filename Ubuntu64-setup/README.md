@@ -28,7 +28,9 @@ This gets you express.js
 npm install -g express
 ```
 
+### Success!
 
+![Express Setup Success](Express_Success.png)
 
 ## References:
 
