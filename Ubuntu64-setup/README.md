@@ -67,29 +67,12 @@ Next, we'll modify your `packages.json` file in the `HelloNodeExpress` directory
 
 ### Modding the `packages.json`
 
-open with vim or your favorite text editor the `packages.json` file:
+First, open with vim or your favorite text editor the `packages.json` file:
 
+Then, change `packages.json` by adding two lines to the `dependencies` attribute (the lines with "monk" and "mongo")
 
-You Must Change this file:
+Your final product should look like this:
 
-<div style="float:left">
-```json
-{
-    "name": "application-name",
-    "version": "0.0.1",
-    "private": true,
-    "scripts": {
-        "start": "node app.js"
-    },
-    "dependencies": {
-        "express": "3.4.4",
-        "jade": "*"
-    }
-} 
-```
-</div>
-
-<div style="float:right">
 ```json
 {
     "name": "application-name",
@@ -107,7 +90,14 @@ You Must Change this file:
     }
 } 
 ```
-</div>
+
+### You are finally ready to install Mongo! (and Monk!) 
+
+Just type the following into the command line, and watch as npm magically finds and installs `monk` and `mongo` :smiley:
+
+```bash
+npm install 
+```
 
 
 ### Success!
