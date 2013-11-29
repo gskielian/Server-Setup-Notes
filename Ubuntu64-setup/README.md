@@ -46,6 +46,16 @@ Now we will get you express.js
 npm install -g express
 ```
 
+## Getting Mongo
+
+Next go ahead and start a new session with express:
+
+```bash
+express --sessions HelloNodeExpress
+```
+
+
+
 ### Success!
 If your setup was a success you should be able to find the following on your website:
 
