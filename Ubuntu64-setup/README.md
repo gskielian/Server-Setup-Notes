@@ -29,3 +29,10 @@ npm install -g express
 ```
 
 
+
+## References:
+
+These notes are compiled mainly from the following sources:
+
+* http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/?src=hn
+* 
