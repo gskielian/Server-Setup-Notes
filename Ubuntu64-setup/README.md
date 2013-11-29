@@ -29,8 +29,13 @@ npm install -g express
 ```
 
 ### Success!
+If your setup was a success you should be able to find the following on your website:
+
+---
 
 ![Express Setup Success](Express_Success.png )
+
+---
 
 ## References:
 
