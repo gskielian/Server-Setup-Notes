@@ -63,13 +63,13 @@ cd HelloNodeExpress
 
 ## Installing `Mongo` (and the helper `Monk`)
 
-Next, we'll modify your `packages.json` file in the `HelloNodeExpress` directory, then use `npm` to install `Mongo` and `Monk`
+Next, we'll modify your `packages.json` file in the `HelloNodeExpress` directory, then use `npm` to install `Mongodb` and `Monk`
 
 ### Modding the `packages.json`
 
 First, open with vim or your favorite text editor the `packages.json` file:
 
-Then, change `packages.json` by adding two lines to the `dependencies` attribute (the lines with "monk" and "mongo")
+Then, change `packages.json` by adding two lines to the `dependencies` attribute (the lines with "monk" and "mongodb")
 
 Your final product should look like this:
 
@@ -84,7 +84,7 @@ Your final product should look like this:
     "dependencies": {
         "express": "3.4.4",
         "jade": "*",
-        "mongo" : "*",
+        "mongodb" : "*",
         "monk" : "*"
         
     }
@@ -93,7 +93,7 @@ Your final product should look like this:
 
 ### You are finally ready to install Mongo! (and Monk!) 
 
-Just type the following into the command line, and watch as npm magically finds and installs `monk` and `mongo` :smiley:
+Just type the following into the command line, and watch as npm magically finds and installs `monk` and `mongodb` :smiley:
 
 ```bash
 npm install 
