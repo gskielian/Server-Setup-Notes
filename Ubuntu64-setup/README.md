@@ -29,7 +29,19 @@ sudo apt-get install nodejs
 
 ### Installing Express.js
 
-This gets you express.js
+Create a directory `node` with the following commands:
+
+```bash
+mkdir node
+```
+
+and `cd` into it with the usual:
+
+```bash
+cd node
+```
+
+Now we will get you express.js
 ```bash
 npm install -g express
 ```
