@@ -72,9 +72,8 @@ open with vim or your favorite text editor the `packages.json` file:
 
 You Must Change this file:
 
-| Before | After |
-| :---:  | :---: |
-| ```json
+<div style="float:left">
+```json
 {
     "name": "application-name",
     "version": "0.0.1",
@@ -87,8 +86,28 @@ You Must Change this file:
         "jade": "*"
     }
 } 
-```  | After | 
+```
+</div>
 
+<div style="float:right">
+```json
+{
+    "name": "application-name",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "3.4.4",
+        "jade": "*",
+        "mongo" : "*",
+        "monk" : "*"
+        
+    }
+} 
+```
+</div>
 
 
 ### Success!
