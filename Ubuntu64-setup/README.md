@@ -13,6 +13,10 @@ The hope of this (and perhaps some Jade Templating) is to minimize the time and 
 
 ## Installing the Mean stack:
 
+`cd` into the root directory, and let's begin start by installing Node.
+
+
+### Installing Node 
 
 This gets you the latest version of Node.js
 ```bash
@@ -22,6 +26,8 @@ sudo add-apt-repository -y ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install nodejs
 ```
+
+### Installing Express.js
 
 This gets you express.js
 ```bash
