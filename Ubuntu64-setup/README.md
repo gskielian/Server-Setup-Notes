@@ -54,6 +54,41 @@ Next go ahead and start a new session with express:
 express --sessions HelloNodeExpress
 ```
 
+go ahead and `cd` into the newly created HelloNodeExpress directory:
+
+```bash
+cd HelloNodeExpress
+```
+
+
+## Installing `Mongo` (and the helper `Monk`)
+
+Next, we'll modify your `packages.json` file in the `HelloNodeExpress` directory, then use `npm` to install `Mongo` and `Monk`
+
+### Modding the `packages.json`
+
+open with vim or your favorite text editor the `packages.json` file:
+
+
+You Must Change this file:
+
+| Before | After |
+| :---:  | :---: |
+| ```json
+{
+    "name": "application-name",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "3.4.4",
+        "jade": "*"
+    }
+} 
+```  | After | 
+
 
 
 ### Success!
