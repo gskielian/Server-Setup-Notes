@@ -153,6 +153,9 @@ exports.helloworld = function(req, res){
 };
 ```
 
+### Step 3: Creating the jade file
+
+Create a new View in your `./views/` folder, this will extend the layout.jade template (which lives in the same dir)
 
 
 ```javascript
