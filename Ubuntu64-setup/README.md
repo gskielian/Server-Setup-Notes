@@ -112,7 +112,7 @@ node app.js
 (**Note you'll run your apps with `node` command) 
 
 ### Success!
-If your setup was a success you should be able to find the following on your website:
+If your setup was a success you should be able to find the following on your website on the specified port:
 
 ---
 
