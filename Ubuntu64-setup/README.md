@@ -155,16 +155,25 @@ exports.helloworld = function(req, res){
 
 ### Step 3: Creating the jade file
 
-Create a new View in your `./views/` folder, this will extend the layout.jade template (which lives in the same dir)
+Create a new View in your `./views/` folder called `helloworld.jade`. T
 
+This will extend your layout.jade template.
+
+Add the following:
 
 ```jade
 extends layout
 
 block content
   h1= title
-  p Hellow, World! Welcome to #{title}
+  p Hello Jade and stuff! Welcome to #{title}
 ```
+
+**Do not include a space between `h1` and the `=`sign -- this lack of space is important**
+
+
+
+
 
 
 
