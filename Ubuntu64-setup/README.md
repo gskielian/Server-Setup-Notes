@@ -137,7 +137,7 @@ exports.helloworld = function(req, res){
   res.render('helloworld', { title: 'Hello, World!' });
 };
 ```
-3. creating and modding a jade template file in your `./views/` folder
+ 3. creating and modding a jade template file in your `./views/` folder
 
 
 #### Step 1: 
