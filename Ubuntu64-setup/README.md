@@ -131,19 +131,27 @@ There's three things you'll need to do in order to create a new page
 
 1. modding the app.js file to include an `app.get('nameofpage', route.nameofpage);`
 2. appending the `./routes/index.js` file 
+3. creating and modding a jade template file in your `./views/` folder
+
+
+#### Step 1: Handling the url Call
+
+Go ahead and open up the `app.js` file with your text-editor, and change the heading:
+
+
+Add the following line to the bottom of the `app.get` group (for me this was around line 33)
+```javascript
+app.get('/helloworld', routes.helloworld);
+```
+
+
+#### Step 2: Appending Route to index.js
 
 ```javascript 
 exports.helloworld = function(req, res){
   res.render('helloworld', { title: 'Hello, World!' });
 };
 ```
- 3. creating and modding a jade template file in your `./views/` folder
-
-
-#### Step 1: 
-
-Go ahead and open up the `app.js` file with your text-editor, and change the heading:
-
 
 
 
