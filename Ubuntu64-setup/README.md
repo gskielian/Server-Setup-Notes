@@ -158,10 +158,12 @@ exports.helloworld = function(req, res){
 Create a new View in your `./views/` folder, this will extend the layout.jade template (which lives in the same dir)
 
 
-```javascript
+```jade
+extends layout
 
-
-
+block content
+  h1= title
+  p Hellow, World! Welcome to #{title}
 ```
 
 
