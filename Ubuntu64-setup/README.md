@@ -61,7 +61,7 @@ cd HelloNodeExpress
 ```
 
 
-## Installing `Mongo` (and the helper `Monk`)
+## Monk && MongoDB: Registering Dependencies And Installing
 
 Next, we'll modify your `packages.json` file in the `HelloNodeExpress` directory, then use `npm` to install `Mongodb` and `Monk`
 
@@ -96,6 +96,7 @@ Your final product should look like this:
 Just type the following into the command line, and watch as npm magically finds and installs `monk` and `mongodb` :smiley:
 
 ```bash
+sudo apt-get install mongodb-server
 npm install 
 ```
 
