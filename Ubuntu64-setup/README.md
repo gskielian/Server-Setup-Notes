@@ -124,7 +124,22 @@ If your setup was a success you should be able to find the following on your web
 
 Once you have something running it's usually easy to start modding it.
 
+
+#### Creating a new page:
+
+There's three things you'll need to do in order to create a new page
+
+1. modding the app.js file to include an `app.get('nameofpage', route.nameofpage);`
+2. appending the `./routes/index.js` file 
+```javascript 
+exports.helloworld = function(req, res){
+  res.render('helloworld', { title: 'Hello, World!' });
+};
+```
+
 Go ahead and open up the `app.js` file with your text-editor, and change the heading:
+
+
 
 
 ```javascript
