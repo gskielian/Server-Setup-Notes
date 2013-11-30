@@ -153,7 +153,7 @@ exports.helloworld = function(req, res){
 };
 ```
 
-### Step 3: Creating the jade file
+#### Step 3: Creating the jade file
 
 Create a new View in your `./views/` folder called `helloworld.jade`. T
 
@@ -171,6 +171,12 @@ block content
 
 **Do not include a space between `h1` and the `=`sign -- this lack of space is important**
 
+
+### Running Your New Page
+
+Sit back, relax, and do a `node app.js` in your node-app's directory.
+
+If successful you will see the first custom page in your adventures in MEAN.
 
 
 
