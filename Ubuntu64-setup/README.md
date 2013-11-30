@@ -120,6 +120,22 @@ If your setup was a success you should be able to find the following on your web
 
 ---
 
+### Now Let's Customize It : )
+
+Once you have something running it's usually easy to start modding it.
+
+Go ahead and open up the `app.js` file with your text-editor, and change the heading:
+
+
+```javascript
+
+
+
+```
+
+
+
+
 ## References:
 
 These notes are compiled mainly from the following sources:
