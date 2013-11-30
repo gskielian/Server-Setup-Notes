@@ -99,6 +99,17 @@ Just type the following into the command line, and watch as npm magically finds 
 npm install 
 ```
 
+...type the above in and the installation should be well underway.
+
+## Testing your app
+
+To test your app run it with the following:
+
+```bash
+node app.js
+```
+
+(**Note you'll run your apps with `node` command) 
 
 ### Success!
 If your setup was a success you should be able to find the following on your website:
